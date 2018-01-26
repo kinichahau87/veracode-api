@@ -14,7 +14,7 @@ used to help automate scanning applications during the development cycle
 ## Usage
 
   ```
-  veracode-api \\path\\to\\zip app_name scantype:[prescan,scan]
+  veracode_api \\path\\to\\zip app_name scantype:[prescan,scan]
   ```
 
 ## Before you use
@@ -26,7 +26,7 @@ used to help automate scanning applications during the development cycle
   example prescan:
 
   ```
-  veracode-api C:\Users\kmorfin\test "test app" prescan
+  veracode_api C:\Users\kmorfin\test "test app" prescan
   ```
 
   ![Alt text](prescan-request.PNG?raw=true "succesfull prescan")
@@ -34,7 +34,7 @@ used to help automate scanning applications during the development cycle
   example scan:
 
   ```
-  veracode-api C:\Users\kmorfin\test "test app" scan
+  veracode_api C:\Users\kmorfin\test "test app" scan
   ```
 
   ![Alt text](scan-sent.PNG?raw=true "succesfull scan")
