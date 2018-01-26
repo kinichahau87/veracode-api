@@ -17,6 +17,10 @@ used to help automate scanning applications during the development cycle
   veracode-api \\path\\to\\zip app_name scantype:[prescan,scan]
   ```
 
+## Before you use
+
+  this tool needs credentials to access the api. It uses 2 environment variables 'VERACODEUSER' and 'VERACODEPSWD'. Makesure whatever username you are using has developer access.
+
 ## Examples
 
   example prescan:
