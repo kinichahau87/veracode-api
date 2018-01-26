@@ -9,17 +9,28 @@ used to help automate scanning applications during the development cycle
 
   ```
   npm install -g veracode-api
-  ```
-
-  or include it in your own script
-
-
-  ```
-  npm install --save veracode-api
-  ```
+  ```  
 
 ## Usage
 
   ```
-  \\path\\to\\zip app_name scantype:[prescan,scan]
+  veracode-api \\path\\to\\zip app_name scantype:[prescan,scan]
   ```
+
+## Examples
+
+  example prescan:
+
+  ```
+  veracode-api C:\Users\kmorfin\test "test app" prescan
+  ```
+
+  ![Alt text](prescan-request.PNG?raw=true "succesfull prescan")
+
+  example scan:
+
+  ```
+  veracode-api C:\Users\kmorfin\test "test app" scan
+  ```
+
+  ![Alt text](scan-sent.PNG?raw=true "succesfull scan")
