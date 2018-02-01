@@ -6,7 +6,8 @@ var eslint = require('gulp-eslint');
 gulp.task("lint", function(){
   return gulp.src("lib/**/*.js")
     .pipe(eslint())
-    .pipe(eslint.failAfterError());    
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
 });
 
 gulp.task("spec-lint", function(){
