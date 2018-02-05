@@ -5,7 +5,8 @@
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-        "sourceType": "module"
+        "sourceType": "module",
+        "shouldFix": true
     },
     "rules": {
         "indent": [
@@ -23,7 +24,6 @@
         "semi": [
             "error",
             "always"
-        ],
-        "no-console":0
+        ]
     }
 }

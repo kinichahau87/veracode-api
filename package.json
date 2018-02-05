@@ -1,6 +1,6 @@
 {
   "name": "veracode-api",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "veracode api for jenkins deployments",
   "main": "lib/index.js",
   "preferGlobal": "true",
@@ -27,9 +27,10 @@
   },
   "dependencies": {
     "colors": "^1.1.2",
+    "debug": "^3.1.0",
     "fs": "0.0.1-security",
     "promise": "^8.0.1",
     "request": "^2.82.0",
-    "xml-parse": "^0.3.0"
+    "xml2js": "^0.4.19"
   }
 }

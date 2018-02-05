@@ -22,7 +22,7 @@ used to help automate scanning applications during the development cycle
 
 ## Before you use
 
-  this tool needs credentials to access the api. It uses 2 environment variables 'VERACODEUSER' and 'VERACODEPSWD'. Makesure whatever username you are using has developer access.
+  this tool needs credentials to access the api. It uses 3 environment variables 'VERACODEUSER', 'VERACODEPSWD' and 'DEBUG'. Makesure whatever username you are using has developer access. Without the DEBUG variable set you will not see any output to standard out. Refer to the node [debug module](https://www.npmjs.com/package/debug) for setting this environment variable.
 
 ## Examples
 
