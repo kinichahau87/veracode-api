@@ -20,7 +20,7 @@
   "author": "kmorfin",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-beautify": "^2.0.1",
     "gulp-eslint": "^4.0.0",
     "gulp-watch": "^4.3.11"
